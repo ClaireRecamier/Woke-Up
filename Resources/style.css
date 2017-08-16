@@ -11,3 +11,12 @@ p {
   text-align: left;
   font-size: 30px;
 }
+
+#fiction{
+  width: 400px;
+  float: left;
+}
+
+#nonfiction {
+  float: left;
+}
