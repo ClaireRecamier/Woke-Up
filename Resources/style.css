@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  font-family: 'Sedgwick Ave Display';
+  font-size: 300%;
+}
+p {
+  text-align: center;
+  font-size:40px;
+}
+#resources-navbar {
+  text-align: left;
+  font-size: 30px;
+}
