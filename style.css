@@ -1,8 +1,9 @@
 
 h1 {
      font-family: 'Sedgwick Ave Display', cursive;
-     font-size:800%;
+     font-size:1000%;
      text-align: center;
+     margin: 0;
 }
 
 #title {
@@ -12,18 +13,22 @@ h1 {
 
 h2{
     font-family:'Oswald', sans-serif;
-    font-size:150%;
+    font-size:200%;
     text-align:center;
 }
 
 p{
   font-family:'Oswald',sans-serif;
-  font-size: 100%;
+  font-size: 150%;
   text-align:center;
 }
 
 h3{
   font-family:'Oswald',sans-serif;
-  font-size: 150%;
+  font-size: 200%;
   text-align:center;
+}
+body {
+      background-color: #FD5200;
+      overflow: hidden;
 }
