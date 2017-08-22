@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 h1 {
      font-family: 'Sedgwick Ave Display', cursive;
@@ -27,3 +28,34 @@ h3{
   font-size: 150%;
   text-align:center;
 }
+=======
+h1{
+     font-family: 'Sedgwick Ave Display', cursive;
+     font-size:800%;
+     text-align: center;
+}
+
+h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size:100%;
+    text-align:center;
+}
+
+h3{
+    font-family:'Oswald', sans-serif;
+    font-size:150%;
+    text-align:center;
+}
+
+p{
+  font-family:'Oswald',sans-serif;
+  font-size: 100%;
+  text-align:center;
+}
+
+h4{
+  font-family:'Oswald',sans-serif;
+  font-size: 150%;
+  text-align:center;
+}
+>>>>>>> 63d350a4b3d1218af1c7e26eb7c6dadaf2a2ab62
