@@ -39,14 +39,12 @@ body, html {height: 100%}
     cursor: pointer;
     margin: 5px;
   }
-
   .button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
-
   .button span:after {
     content: '\00bb';
     position: absolute;
@@ -55,11 +53,9 @@ body, html {height: 100%}
     right: -20px;
     transition: 0.5s;
   }
-
   .button:hover span {
     padding-right: 25px;
   }
-
   .button:hover span:after {
     opacity: 1;
     right: 0;
@@ -104,15 +100,25 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
       <!-- Accordion -->
       <div class="w3-card-2 w3-round">
       <div class="w3-white">
-          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i>Things to Talk About</button>
-          <div id="Demo1" class="w3-hide w3-container w3-green">
-            <p>Some text..</p>
+          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align">Things to Talk About</button>
+          <div id="Demo1" class="w3-hide w3-container w3-yellow">
+              <form action="">
+                <input type="checkbox" name="vehicle" value="Bike"><input type="text" name="fname" placeholder=""><br>
+                <input type="checkbox" name="vehicle" value="Car"><input type="text" name="fname" placeholder=""><br>
+                <input type="checkbox" name="vehicle" value="Bike"><input type="text" name="fname" placeholder=""><br>
+                <input type="checkbox" name="vehicle" value="Car"><input type="text" name="fname" placeholder=""><br>
+              </form>
           </div>
-          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
-          <div id="Demo2" class="w3-hide w3-container w3-green">
-            <p>Some other text..</p>
+          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align">More Things To Talk Abouts</button>
+          <div id="Demo2" class="w3-hide w3-container w3-orange">
+            <form action="">
+              <input type="checkbox" name="vehicle" value="Bike"><input type="text" name="fname" placeholder=""><br>
+              <input type="checkbox" name="vehicle" value="Car"><input type="text" name="fname" placeholder=""><br>
+              <input type="checkbox" name="vehicle" value="Bike"><input type="text" name="fname" placeholder=""><br>
+              <input type="checkbox" name="vehicle" value="Car"><input type="text" name="fname" placeholder=""><br>
+            </form>
           </div>
-          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> My Photos</button>
+
           <div id="Demo3" class="w3-hide w3-container">
          <div class="w3-row-padding">
          <br>
@@ -202,7 +208,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
             <div class="w3-container w3-padding">
               <h6 class="w3-opacity">Your Post</h6>
               <p contenteditable="true" class="w3-border w3-padding"></p>
-              <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>Add Vent</button>
+              <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>Add Vent</button>
             </div>
           </div>
         </div>
@@ -222,8 +228,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
               <img src="/w3images/nature.jpg" style="width:100%" alt="Nature" class="w3-margin-bottom">
           </div>
         </div>
-        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
-        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
       </div>
 
       <div class="w3-container w3-card-2 w3-white w3-round w3-margin"><br>
@@ -232,8 +238,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
         <h4>Jane Doe</h4><br>
         <hr class="w3-clear">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
-        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
       </div>
 
       <div class="w3-container w3-card-2 w3-white w3-round w3-margin"><br>
@@ -244,8 +250,8 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
         <p>Have you seen this?</p>
         <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
-        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
       </div>
 
     <!-- End Middle Column -->
@@ -322,7 +328,6 @@ function myFunction(id) {
         x.previousElementSibling.className.replace(" w3-theme-d1", "");
     }
 }
-
 // Used to toggle the menu on smaller screens when clicking on the menu button
 function openNav() {
     var x = document.getElementById("navDemo");
