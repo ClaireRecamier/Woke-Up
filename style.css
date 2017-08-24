@@ -1,17 +1,18 @@
 
-h1 {
+h1{
      font-family: 'Sedgwick Ave Display', cursive;
      font-size:1000%;
      text-align: center;
      margin: 0;
 }
 
-#title {
-  width: 100%;
-  position: absolute;
+h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size:100%;
+    text-align:center;
 }
 
-h2{
+h3{
     font-family:'Oswald', sans-serif;
     font-size:200%;
     text-align:center;
@@ -23,7 +24,7 @@ p{
   text-align:center;
 }
 
-h3{
+h4{
   font-family:'Oswald',sans-serif;
   font-size: 200%;
   text-align:center;
