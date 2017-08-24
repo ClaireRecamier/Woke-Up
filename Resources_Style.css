@@ -1,0 +1,22 @@
+h1{
+    font-family: 'Sedgwick Ave Display', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+p{
+  font-family:'Slabo 27px', serif;
+  font-size:50px;
+  text-align: center;
+}
+
+body{
+      background-color: #ff4500;
+}
+
+li{
+      font-family: 'Slabo 27x',serif;
+      font-size:20px;
+      text-align: left;
+
+}
